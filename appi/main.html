@@ -1,0 +1,104 @@
+<!--Vespa Educational Website-->
+<!--@author kchoy-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style = "margin: auto; display: block;">
+        <div class = "header">
+            <h1 style = "text-align:center; font-size: 60px;"><b>The History Of Vespas</b></h1>
+            <img style = "max-width:900px; max-height: 600px;" src = "vespa.jpeg">
+        </div>
+        <div class = "bAlign">
+            <div class = "button-left">
+                <button onClick = "document.getElementById('hist').scrollIntoView();">Click here to learn about the history of Vespas</button>
+            </div>
+            <div class = "button-right">
+                <button onClick = "document.getElementById('time').scrollIntoView();">Click here for a timeline </button>
+            </div>
+        </div>
+        <h1 class = "gal">Gallery</h1>
+        <div class = "images">
+            <img style = "width:400px; height: 300px;" src = "vespa1.jpeg">
+            <img style = "width:400px; height: 300px;" src = "vespa7.jpeg">
+            <img style = "width:400px; height: 300px;" src = "vespa3.jpeg">
+            <img style = "width:400px; height: 300px;" src = "vespa4.jpeg">
+            <img style = "width:400px; height: 300px;" src = "vespa5.jpeg">
+            <img style = "width:400px; height: 300px;" src = "vespa6.jpeg">
+        </div>
+        <div id = "hist" class = "history">
+            <h1 style = "font-size: 50px;">An Italian Icon: the Vespa</h1>
+            <p class = "tHistory">
+                The Vespa was created in 1946 in Pontedera, Italy, after World War 2. Due to
+                the catastrophic state the war left Italy in, automobile and other vehicle
+                manufacturers were struggling to get back on their feet. Roads were destroyed,
+                and Italians needed a new means of transportation. Enrico Piaggio currated the idea for a 2
+                wheeled vehicle that would be reliable and inexpensive to make. The Piaggio
+                family was involved in the aerospace industry, so the first vespa was made from
+                spare aircraft parts. Corradino D'Ascanio designed the vehicle, and due to his unique
+                design and its sound, it was named "Vespa" (Italian for wasp). It quickly gained
+                popularity throughout Europe, and made its way all around the world. The Vespa is not only a
+                popular means of transport, but also is a representation of the fruit of life and a symbol of fashion. 
+            </p>
+        </div>
+        <div id = "time" class = "timeline">
+            <h1 style = "font-size: 40px; padding: 0px 0px 40px;">The Vespas Evolution</h1>
+            <div class = "top-row">
+                <div class = "1946" style = "max-width: 200px;">
+                    <img style = "width:150px; height:100px; margin:0px auto; display:block;"src = "vespa98-removebg-preview.png">
+                    <h2>1946 - Vespa 98, The First Model</h2>
+                </div>
+                <div class = "1963" style = "max-width: 200px;">
+                    <img style = "width:150px; height:100px; margin:0px auto; display:block;"src = "vespa50-removebg-preview.png">
+                    <h2>1963 - Vespa 50, A Hit Amongst Youth</h2>
+                </div>
+                <div class = "1978" style = "max-width: 200px;">
+                    <img style = "width:150px; height:100px; margin:0px auto; display:block;"src = "VespaPX.png">
+                    <h2>1978 - Vespa PX, The Most Successful Vespa</h2>
+                </div>
+                <div class = "2006" style = "max-width: 200px;">
+                    <img style = "width:100px; height:100px; margin:0px auto; display:block;"src = "vespaGTS.png">
+                    <h2>2006 - Vespa GTS 250, Made With Extra Space</h2>
+                </div>
+                <div class = "2021" style = "max-width: 200px;">
+                    <img style = "width:150px; height:100px; margin:0px auto; display:block;"src = "vespa75th.png">
+                    <h2>2021 - 75th Special Edition Vespa</h2>
+                </div>
+            </div>
+
+            <!--The Timeline Line-->
+            <div style = "width: 1000px; border: solid black 2px; margin: 0px auto;" class = "line"></div>
+            
+            <div class = "bottom-row">
+                <div class = "1954" style = "max-width: 200px;">
+                    <img style = "width:150px; height:100px; margin:0px auto; display:block;"src = "vespaGS.png">
+                    <h2>1954 - Vespa GS, Queen of Regularity Rallies</h2>
+                </div>
+                <div class = "1968" style = "max-width: 200px;">
+                    <img style = "width:150px; height:100px; margin:0px auto; display:block;"src = "vespaPrimavera.png">
+                    <h2>1968 - Vespa Primavera</h2>
+                </div>
+                <div class = "1996" style = "max-width: 200px;">
+                    <img style = "width:150px; height:100px; margin:0px auto; display:block;"src = "swap-removebg-preview.png">
+                    <h2>1996 - Vespa ET 50</h2>
+                </div>
+                <div class = "2019" style = "max-width: 200px;">
+                    <img style = "width:150px; height:100px; margin:0px auto; display:block;"src = "Elettrica.png">
+                    <h2>2019 - Elettrica, A Silent Electric Vespa</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
